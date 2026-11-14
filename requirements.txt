@@ -1,0 +1,9 @@
+# Runtime dependencies are from Python's standard library.
+# Linux FUSE support:
+fusepy>=3.0.1
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+# Development/testing:
+pytest>=8.0
+httpx2>=2.0.0
